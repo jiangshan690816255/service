@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        
+
+        {
+            "type": "node-terminal",
+            "name": "运行脚本: start",
+            "request": "launch",
+            "command": "npm run start",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

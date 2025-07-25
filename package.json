@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-register": "^6.26.0",
+    "koa": "^3.0.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^13.1.1",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^8.16.4",
+    "nodemon": "^3.1.10"
+  },
+  "name": "service",
+  "version": "1.0.0",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js",
+    "dev": "nodemon start.js"  
+  },
+  "author": "jiangs",
+  "license": "ISC",
+  "description": ""
+}
