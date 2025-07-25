@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@koa/router": "^13.1.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-register": "^6.26.0",
     "koa": "^3.0.0",
@@ -7,17 +8,24 @@
     "koa-router": "^13.1.1",
     "koa2-cors": "^2.0.6",
     "mongoose": "^8.16.4",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "vue": "^3.5.18"
   },
   "name": "service",
   "version": "1.0.0",
-  "main": "start.js",
+  "main": "start.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node start.js",
-    "dev": "nodemon start.js"  
+    "start": "node start.ts",
+    "dev": "nodemon start.ts"
   },
   "author": "jiangs",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa2-cors": "^2.0.5",
+    "typescript": "^5.8.3"
+  }
 }
