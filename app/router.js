@@ -12,13 +12,13 @@ router.get('/getUser', (ctx) => {
             id: 1, name: '小明3',
             age: ctx.query.age,
             sex: ctx.query.sex,
-            qq:ctx.query.qq
+            qq: ctx.query.qq
         },
         {
             id: 2, name: '小李',
             age: ctx.query.age,
             sex: ctx.query.sex,
-            qq:ctx.query.qq
+            qq: ctx.query.qq
         }
     ]
 })
