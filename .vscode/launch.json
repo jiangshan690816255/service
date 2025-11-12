@@ -4,9 +4,9 @@
 
         {
             "type": "node-terminal",
-            "name": "运行脚本: start",
+            "name": "运行脚本: dev",
             "request": "launch",
-            "command": "npm run start",
+            "command": "npm run dev",
             "cwd": "${workspaceFolder}"
         }
     ]
