@@ -10,6 +10,7 @@
     "koa2-cors": "^2.0.6",
     "mysql2": "^3.14.3",
     "nodemon": "^3.1.10",
+    "vite": "^7.1.2",
     "vue": "^3.5.18"
   },
   "name": "service",
@@ -27,6 +28,7 @@
     "@types/koa": "^2.15.0",
     "@types/koa-bodyparser": "^4.3.12",
     "@types/koa2-cors": "^2.0.5",
+    "@vitejs/plugin-vue": "^6.0.1",
     "typescript": "^5.8.3"
   }
 }
